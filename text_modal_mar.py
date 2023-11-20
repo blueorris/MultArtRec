@@ -4,11 +4,11 @@ from cornac.data import TextModality
 import numpy as np
 
 # Load data
-feedback = np.load('data/feedback_final.npy')
-features = np.load('data/text_features_bert_base_final.npy')
+feedback = np.load('data/feedback.npy')
+features = np.load('data/text_features_bert_base.npy')
 # features = np.load('data/text_features_poems_sentiment_final.npy')
 # features = np.load('data/text_features_bert_base_emotion.npy')
-item_ids = np.load('data/item_ids_final.npy')
+item_ids = np.load('data/item_ids.npy')
 
 item_text_modality = TextModality(features=features, ids=item_ids)
 

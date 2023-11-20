@@ -28,8 +28,7 @@ Copy the folder `mar` to `cornac/models/` where the Cornac package is installed.
 
 ### Edit File
 
-In `cornac/__init__.py`,  
-Add `from .mar import MAR`.
+In `cornac/__init__.py`, add `from .mar import MAR`.
 
 ### Run Code
   ```bash
