@@ -1,5 +1,5 @@
 # MultArtRec
-This repo is the implementation of paper **MultArtRec: A Multi-Modal Neural Topic Modeling for Integrating Image and Text Features in Artwork Recommendation**. It is a module added to **[cornac](https://github.com/PreferredAI/cornac)**.
+This repo is the implementation of paper **MultArtRec: A Multi-Modal Neural Topic Modeling for Integrating Image and Text Features in Artwork Recommendation**. It is a module added to **[Cornac framework](https://github.com/PreferredAI/cornac)**.
 
 # Get Started
 
@@ -32,7 +32,7 @@ In `cornac/__init__.py`, add `from .mar import MAR`.
 
 ### Run Code
   ```bash
-  python text_modal_mar.py
+  python mar_exp.py
   ```
 
 
