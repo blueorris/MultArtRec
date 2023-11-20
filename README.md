@@ -24,11 +24,22 @@ Install TensorFlow. (Here we test TensorFlow 2.13.0.)
 
 ### Copy Folder
 
-Copy the folder `mar` to `cornac/models/` where the Cornac package is installed. For example: `anaconda/envs/cornac/lib/python3.9/site-packages/`.
+Copy the folder `mar/` to `cornac/models/` where the Cornac package is installed. For example: `anaconda/envs/cornac/lib/python3.9/site-packages/`.
 
 ### Edit File
 
 In `cornac/__init__.py`, add `from .mar import MAR`.
+
+### Download Data
+
+For convenience, we have prepared the required data in advance.  
+Download all of them and save to the `data/` folder.
+
+| File Name     | Download Link |
+| ----------- | ----------- |
+| `feedback.npy`      | [Google Drive Link](https://drive.google.com/file/d/1ct2VbClkNNpvQxs_ekMdVMaw5bfaaxoZ/view?usp=drive_link)       |
+| `text_features_bert_base.npy`   | [Google Drive Link](https://drive.google.com/file/d/14_4YdbCSg5XUzPfa9FLtQz3xsQfvpNu7/view?usp=drive_link)        |
+|`item_ids.npy`  |[Google Drive Link](https://drive.google.com/file/d/16PfxjpiFfBn4_n_j85X0htQj-ePSe9m5/view?usp=drive_link)|
 
 ### Run Code
   ```bash
